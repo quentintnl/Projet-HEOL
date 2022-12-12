@@ -1,0 +1,27 @@
+*{
+    text-decoration: none;
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 23px;
+    color: #333333;
+}
+
+.access_menu{
+    align-items: center;
+    text-align: center;
+}
+
+.bag_logo{
+    height: 24px;
+    background-color: #E7D0AD;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.log_in{
+    color: #333333;
+}
