@@ -35,6 +35,60 @@ a:visited{
 .log_in{
     color: #333333;
 }
+
+.product_show{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    padding-left: 50px;
+    width: 1400px;
+    height: 500px;
+    left: 200px;
+    top: 159px;
+    background: #E7D0AD;
+}
+
+.product_show_img{
+    position: relative;
+    height: 700px;
+    left: -350px;
+    top: -50px;
+}
+
+.name_product_show{
+    display: inline-block;
+    font-size: 50px;
+    font-family: 'Philosopher';
+    margin-top: 100px;
+}
+
+.description_txt_product{
+    display: inline-block;
+    margin-top: 30px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-size: 20px;
+}
+
+.bottom_line{
+    margin-top: 50px;
+    border-top: 1px solid #000;
+    width : 100px; 
+}
+
+.discovery{
+    display: inline-block;
+    color: #333333;
+    font-family: 'Cormorant Garamond';
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+.bottom_line2{
+    margin-top: 40px;
+    border-top: 1px solid #000;
+    width : 100px; 
+}
 .product{
     background-color:#E7D0AD;
     position: absolute;
@@ -61,7 +115,5 @@ a:visited{
     opacity: 0.50;
 }
 .product_pict_view{
-    padding-left: 60px;
-    align-items: center;
-    display:flex;
+    
 }
