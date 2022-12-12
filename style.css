@@ -4,10 +4,7 @@
 body{
     background-color: #FAF0E6
 }
-a:hover{
-    color:#4B6F43;
 
-}
 a:visited{
     color: #333333;
 }
@@ -18,6 +15,10 @@ a:visited{
     align-items: center;
     font-size: 23px;
     color: #333333;    
+}
+a:hover{
+    color:#4B6F43;
+    transition:0.4s;
 }
 
 .access_menu{
@@ -114,6 +115,8 @@ a:visited{
     height: 120px;
     opacity: 0.50;
 }
-.product_pict_view{
+.product_pict_view img{
+    display: flex;
+    text-align: center;
     
 }
