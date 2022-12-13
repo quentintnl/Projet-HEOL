@@ -259,3 +259,10 @@ a:hover{
     flex-direction: column;
     align-items: center;
 }
+
+.payment_info{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #E7D0AD;
+    margin-top: 50px;
+}
