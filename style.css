@@ -2,7 +2,10 @@
     text-decoration: none;
 }
 body{
-    background-color: #FAF0E6
+    display:inline;
+    background-color: #FAF0E6;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 a:visited{
@@ -36,14 +39,16 @@ a:hover{
 .log_in{
     padding-left: 4px;
 }
+.product_show{
+    justify-content: flex-start;
+    display: flex;
+}
 .product{
     display: flex;
     background-color:#E7D0AD;
     width: 700px;
     height: 550px;
-    left: 0px;
-    top: 215px;
-    display: flex;
+    justify-content: space-between;
 }
 
 .product_link{
@@ -51,6 +56,7 @@ a:hover{
     margin-left: 160px;
     font-family: 'Cormorant Garamond';
     font-weight: 800;
+    margin-bottom: 30px;
 }
 
 .product_pict_select{
@@ -66,3 +72,38 @@ a:hover{
     margin: auto;
       
 }
+.name_product1 {
+    margin-left: 100px;
+    margin-top: 40px;
+    font-family: 'Philosopher';
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name_product1 span{
+    font-size: 45px;
+}
+.price_product1{
+    margin-top: 58px;
+}
+.add_cart_button{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    width: 300px;
+    height: 50px;
+    color: #ffffff;
+    background-color: #BA9755;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-top: 75px;
+    
+}
+.add_cart_button:hover{
+    color: #FAF0E6;
+    background-color: #4B6F43;
+}
+
