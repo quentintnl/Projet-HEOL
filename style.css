@@ -1,15 +1,24 @@
 *{
     text-decoration: none;
 }
+body{
+    background-color: #FAF0E6
+}
+
 a:visited{
     color: #333333;
 }
+
 .nav_bar{
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 23px;
     color: #333333;    
+}
+a:hover{
+    color:#4B6F43;
+    transition:0.4s;
 }
 
 .access_menu{
@@ -101,11 +110,17 @@ a:visited{
 
 .product_pict_select{
     margin-left: 100px;
+    margin-top:7px;
 }
 .product_pict_select img{
     height: 120px;
     opacity: 0.50;
 }
+.product_pict_view{
+    display: block;
+    margin: auto;
+    
+     
 
 .show_2_product{
     margin-top: 700px;
@@ -175,4 +190,5 @@ a:visited{
 
 .shoe_discovery_display{
     display: flex;
+}
 }
