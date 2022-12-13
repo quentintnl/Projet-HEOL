@@ -91,35 +91,14 @@ a:hover{
     width : 100px; 
 }
 .product{
-    display: flex;
     background-color:#E7D0AD;
+    position: absolute;
     width: 700px;
     height: 550px;
     left: 0px;
     top: 215px;
     display: flex;
 }
-
-.product_link{
-    height: 20px;
-    margin-left: 160px;
-    font-family: 'Cormorant Garamond';
-    font-weight: 800;
-}
-
-.product_pict_select{
-    margin-left: 100px;
-    margin-top:7px;
-}
-.product_pict_select img{
-    height: 120px;
-    opacity: 0.50;
-}
-.product_pict_view{
-    display: block;
-    margin: auto;
-    
-     
 
 .show_2_product{
     margin-top: 700px;
@@ -189,5 +168,4 @@ a:hover{
 
 .shoe_discovery_display{
     display: flex;
-}
 }
