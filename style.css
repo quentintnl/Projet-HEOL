@@ -110,13 +110,15 @@ a:hover{
 
 .product_pict_select{
     margin-left: 100px;
+    margin-top:7px;
 }
 .product_pict_select img{
     height: 120px;
     opacity: 0.50;
 }
-.product_pict_view img{
-    display: flex;
-    text-align: center;
+.product_pict_view{
+    display: block;
+    margin: auto;
     
+     
 }
