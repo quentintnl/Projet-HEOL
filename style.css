@@ -13,8 +13,8 @@ a:visited{
 }
 
 .access_menu{
-    align-items: center;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .bag_logo{
@@ -25,7 +25,7 @@ a:visited{
 }
 
 .log_in{
-    color: #333333;
+    padding-left: 4px;
 }
 
 .product_show{
@@ -62,7 +62,7 @@ a:visited{
     font-size: 20px;
 }
 
-.bottom_line{
+.bottom_line_product_show{
     margin-top: 50px;
     border-top: 1px solid #000;
     width : 100px; 
@@ -76,7 +76,7 @@ a:visited{
     margin-top: 8px;
 }
 
-.bottom_line2{
+.bottom_line_product_show2{
     margin-top: 40px;
     border-top: 1px solid #000;
     width : 100px; 
@@ -105,4 +105,74 @@ a:visited{
 .product_pict_select img{
     height: 120px;
     opacity: 0.50;
+}
+
+.show_2_product{
+    margin-top: 700px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.shoe_img{
+    height: 300px;
+}
+
+.sock_img{
+    height: 300px;
+}
+
+.shoe_title{
+    font-family: 'Philosopher';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sock_title{
+    font-family: 'Philosopher';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sock_txt{
+    display: inline-block;
+    margin-top: 5px;
+    font-family: 'Cormorant Garamond';
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.shoe_txt{
+    display: inline-block;
+    margin-top: 5px;
+    font-family: 'Cormorant Garamond';
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.discovery_shoe{
+    display: inline-block;
+    margin-top: 5px;
+    font-family: 'Philosopher';
+    font-size: 20px;
+}
+
+.discovery_sock{
+    display: inline-block;
+    margin-top: 5px;
+    font-family: 'Philosopher';
+    font-size: 20px;
+}
+
+.bottom_line_2_product_show{
+    margin-top: 10px;
+    border-top: 1px solid #000;
+    width : 100px; 
+}
+
+.sock_discovery_display{
+    display: flex;
+}
+
+.shoe_discovery_display{
+    display: flex;
 }
