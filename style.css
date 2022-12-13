@@ -40,8 +40,6 @@ a:hover{
 .product_show{
     display: flex;
     justify-content: center;
-    position: absolute;
-    padding-left: 50px;
     width: 1400px;
     height: 500px;
     left: 200px;
@@ -90,16 +88,14 @@ a:hover{
     border-top: 1px solid #000;
     width : 100px; 
 }
+.product_show{
+
+}
 .product{
+    display: flex;
     background-color:#E7D0AD;
-    position: absolute;
     width: 700px;
     height: 550px;
-    left: 0px;
-    top: 215px;
-    display: flex;
-
-    
 }
 .product_link{
     height: 20px;
@@ -120,7 +116,14 @@ a:hover{
     display: block;
     margin: auto;
     
-     
+}
+.description_product1{
+    
+    display: inline-block;
+    font-size: 45px;
+    font-family: 'Philosopher';
+}
+
 
 .show_2_product{
     margin-top: 700px;
@@ -190,5 +193,4 @@ a:hover{
 
 .shoe_discovery_display{
     display: flex;
-}
 }
