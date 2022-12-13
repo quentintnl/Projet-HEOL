@@ -86,8 +86,9 @@ a:hover{
 }
 .price_product1{
     margin-top: 58px;
+    font-size: 30px ;
 }
-.add_cart_button{
+.btn{
     text-align: center;
     display: flex;
     justify-content: center;
@@ -102,7 +103,7 @@ a:hover{
     margin-top: 75px;
     
 }
-.add_cart_button:hover{
+.btn:hover{
     color: #FAF0E6;
     background-color: #4B6F43;
 }
