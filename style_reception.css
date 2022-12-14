@@ -692,6 +692,8 @@ a:hover{
     }
 }
 /* END PAYEMENT INFO */
+
+/* LAST PARTY */
 .last_party{
     display: flex;
     justify-content: space-around;
@@ -738,7 +740,7 @@ a:hover{
 
 .img_4_spcial_grp{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .contact_num{
@@ -747,3 +749,152 @@ a:hover{
     font-family: "Cormorant Garamond";
     font-size: 20px;
 }
+
+@media screen and (max-width: 1000px){
+    .heol_logo_snd{
+        height: 50px;
+    }
+    .last_party_title{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .social_media_img{
+        height: 30px;
+        margin-top: 15px;
+    }
+    .adress_txt{
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .contact_num{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .last_party{
+        padding: 30px;
+    }
+    .heol_logo_snd{
+        height: 40px;
+    }
+    .last_party_title{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .social_media_img{
+        height: 25px;
+        margin-top: 10px;
+    }
+    .adress_txt{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .contact_num{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .last_party{
+        padding: 20px;
+    }
+    .heol_logo_snd{
+        height: 30px;
+    }
+    .last_party_title{
+        font-size: 16px;
+        margin-top: 8px;
+    }
+    .social_media_img{
+        height: 20px;
+        margin-top: 8px;
+    }
+    .adress_txt{
+        font-size: 16px;
+        margin-top: 8px;
+    }
+    .contact_num{
+        font-size: 16px;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .last_party{
+        padding: 10px;
+    }
+    .heol_logo_snd{
+        height: 30px;
+    }
+    .last_party_title{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .social_media_img{
+        height: 18px;
+        margin-top: 5px;
+    }
+    .adress_txt{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .contact_num{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .last_party{
+        padding: 5px;
+    }
+    .heol_logo_snd{
+        height: 30px;
+    }
+    .last_party_title{
+        font-size: 12px;
+        margin-top: 3px;
+    }
+    .social_media_img{
+        height: 16px;
+        margin-top: 3px;
+    }
+    .adress_txt{
+        font-size: 12px;
+        margin-top: 3px;
+    }
+    .contact_num{
+        font-size: 12px;
+        margin-top: 3px;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .last_party{
+        padding: 1px;
+    }
+    .heol_logo_snd{
+        height: 20px;
+        margin-top: 7px;
+    }
+    .last_party_title{
+        font-size: 10px;
+        margin-top: 3px;
+    }
+    .social_media_img{
+        height: 14px;
+        margin-top: 3px;
+    }
+    .adress_txt{
+        font-size: 10px;
+        margin-top: 3px;
+    }
+    .contact_num{
+        font-size: 10px;
+        margin-top: 3px;
+    }
+}
+/* END LAST PARTY */
