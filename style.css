@@ -107,4 +107,91 @@ a:hover{
     color: #FAF0E6;
     background-color: #4B6F43;
 }
+.pict_description{
+    margin-top: 45px;
+    display: flex;
+    justify-content:center ;
+}
 
+.description_txt_product{
+    display: inline-block;
+    
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-size: 20px;
+}
+.name_product{
+    margin-left: 100px;
+    
+    font-family: 'Philosopher';
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.payment_info{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #E7D0AD;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.last_party{
+    display: flex;
+    justify-content: space-around;
+    background-color: #BA9755;
+    padding: 50px;
+    color: #FAF0E6;
+}
+
+.heol_logo_snd{
+    height: 60px;
+}
+
+.div_img_heol_logo_secondaire{
+    align-items: center;
+}
+.adress{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.last_party_title{
+    font-family: "Philosopher";
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.adress_txt{
+    display: inline-block;
+    margin-top: 20px;
+    font-family: "Cormorant Garamond";
+    font-size: 20px;
+}
+
+.social_media_grp{
+    display: flex;
+    flex-direction: column;
+}
+
+.social_media_img{
+    display: inline-block;
+    margin-top: 20px;
+    height: 35px;
+}
+
+.img_4_spcial_grp{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact_num{
+    display: inline-block;
+    margin-top: 20px;
+    font-family: "Cormorant Garamond";
+    font-size: 20px;
+}
