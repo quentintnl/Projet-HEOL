@@ -184,9 +184,6 @@ a:hover{
     position: relative;
     height: 600px;
     left: -150px;
-    
-    
-    
 }
 
 .name_product_show{
@@ -233,33 +230,25 @@ a:hover{
     display: flex;
 }
 
+/* PARTY 3 */
+
 .show_2_product{
     margin-top: 700px;
     display: flex;
     justify-content: space-evenly;
 }
 
-.shoe_img{
+.img_2_product{
     height: 300px;
 }
 
-.sock_img{
-    height: 300px;
-}
-
-.shoe_title{
+.title_2_product{
     font-family: 'Philosopher';
     font-size: 20px;
     font-weight: bold;
 }
 
-.sock_title{
-    font-family: 'Philosopher';
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.sock_txt{
+.txt_2_product{
     display: inline-block;
     margin-top: 5px;
     font-family: 'Cormorant Garamond';
@@ -267,22 +256,11 @@ a:hover{
     font-weight: 500;
 }
 
-.shoe_txt{
-    display: inline-block;
-    margin-top: 5px;
-    font-family: 'Cormorant Garamond';
-    font-size: 20px;
-    font-weight: 500;
+.add_br{
+    display: none;
 }
 
-.discovery_shoe{
-    display: inline-block;
-    margin-top: 5px;
-    font-family: 'Philosopher';
-    font-size: 20px;
-}
-
-.discovery_sock{
+.discovery_shoe_sock{
     display: inline-block;
     margin-top: 5px;
     font-family: 'Philosopher';
@@ -302,6 +280,163 @@ a:hover{
 .shoe_discovery_display{
     display: flex;
 }
+
+@media screen and (max-width: 1250px){
+    .title_2_product{
+        font-size: 19px;
+    }
+    .txt_2_product{
+        font-size: 19px;
+    }
+    .img_2_product{
+        height: 250px;
+    }
+    .discovery_shoe_sock{
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .title_2_product{
+        font-size: 18px;
+    }
+    .txt_2_product{
+        font-size: 18px;
+    }
+    .img_2_product{
+        height: 200px;
+    }
+    .sock_img{
+        height: 200px;
+    }
+    .discovery_shoe_sock{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .title_2_product{
+        font-size: 16px;
+    }
+    .txt_2_product{
+        font-size: 16px;
+    }
+    .img_2_product{
+        height: 180px;
+    }
+    .discovery_shoe_sock{
+        font-size: 16px;
+    }
+    .bottom_line_2_product_show{
+        width : 80px; 
+    }
+}
+
+@media screen and (max-width: 800px){
+    .title_2_product{
+        font-size: 15px;
+    }
+    .txt_2_product{
+        font-size: 15px;
+    }
+    .img_2_product{
+        height: 160px;
+    }
+    .discovery_shoe_sock{
+        font-size: 15px;
+    }
+    .bottom_line_2_product_show{
+        width : 75px; 
+    }
+}
+
+@media screen and (max-width: 750px){
+    .show_2_product{
+        flex-direction: column;
+        align-items: center;
+    }
+    .title_2_product{
+        display: inline-block;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .txt_2_product{
+        font-size: 20px;
+    }
+    .img_2_product{
+        height: 200px;
+    }
+    .discovery_shoe_sock{
+        font-size: 20px;
+    }
+    .bottom_line_2_product_show{
+        width : 100px; 
+    }
+}
+
+@media screen and (max-width: 600px){
+    .title_2_product{
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 50px;
+    }
+    .txt_2_product{
+        font-size: 16px;
+    }
+    .img_2_product{
+        height: 180px;
+    }
+    .discovery_shoe_sock{
+        font-size: 16px;
+    }
+    .bottom_line_2_product_show{
+        width : 80px; 
+    }
+}
+
+@media screen and (max-width: 450px){
+    .title_2_product{
+        display: inline-block;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+    .txt_2_product{
+        font-size: 14px;
+    }
+    .img_2_product{
+        height: 160px;
+    }
+    .discovery_shoe_sock{
+        font-size: 14px;
+    }
+    .bottom_line_2_product_show{
+        width : 70px;
+        margin-top: 5px; 
+    }
+}
+
+@media screen and (max-width: 380px){
+    .title_2_product{
+        display: inline-block;
+        font-size: 13px;
+        margin-top: 30px;
+    }
+    .txt_2_product{
+        font-size: 13px;
+    }
+    .img_2_product{
+        height: 140px;
+    }
+    .discovery_shoe_sock{
+        font-size: 13px;
+    }
+    .bottom_line_2_product_show{
+        width : 65px; 
+    }
+}
+/* END PARTY 3 */
+
+/* PARTY 4 */
 
 .recent_news{
     display: flex;
@@ -355,6 +490,7 @@ a:hover{
     font-size: 20px;
     font-weight: 500;
 }
+
 .recent_news_title{
     display: inline-block;
     margin-top: 40px;
@@ -363,21 +499,6 @@ a:hover{
     font-weight: 500;
 }
 
-/* .discover_btn_recent_news{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    border: 2px solid #BA9755;
-    height: 50px;
-    width: 200px;
-}
-
-.txt_color_discover_recent_news{
-    color: #BA9755;
-    font-family: "Philosopher";
-    font-weight: 800;
-} */
 .btn{
     border: 2px solid #BA9755;
     text-align: center;
@@ -412,6 +533,143 @@ a:hover{
     align-items: center;
 }
 
+@media screen and (max-width: 1100px){
+    .background_new_sac_show{
+        right: -50px;
+    }
+    .news_sac_show_img{
+        height: 300px;
+        left: -50px;
+        bottom: -70px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .background_new_sac_show{
+        right: -30px;
+    }
+    .news_sac_show_img{
+        height: 280px;
+        left: -40px;
+        bottom: -50px;
+    }
+    .just_txt_recent_news{
+        font-size: 23px;
+    }
+    .bottom_line_recent_news{
+        width: 140px;
+    }
+    .recent_news_txt{
+        font-size: 16px;
+        margin-top: 70px;
+    }
+    .recent_news_title{
+        font-size: 26px;
+    }
+    .btn{
+        width: 250px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .background_new_sac_show{
+        padding: 0px;
+    }
+    .news_sac_show_img{
+        height: 240px;
+        left: -20px;
+        bottom: -50px;
+    }
+    .just_txt_recent_news{
+        font-size: 23px;
+    }
+    .bottom_line_recent_news{
+        width: 140px;
+    }
+    .recent_news_txt{
+        font-size: 16px;
+        margin-top: 50px;
+    }
+    .recent_news_title{
+        font-size: 24px;
+    }
+    .btn{
+        width: 180px;
+        height: 40px;
+        font-size: 18px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .background_new_sac_show{
+        display: none;
+    }
+    .just_txt_recent_news{
+        font-size: 28px;
+    }
+    .bottom_line_recent_news{
+        width: 180px;
+    }
+    .recent_news_txt{
+        font-size: 20px;
+    }
+    .recent_news_title{
+        font-size: 30px;
+    }
+    .btn{
+        width: 250px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .just_txt_recent_news{
+        font-size: 25px;
+    }
+    .bottom_line_recent_news{
+        width: 160px;
+    }
+    .recent_news_txt{
+        font-size: 17px;
+    }
+    .recent_news_title{
+        font-size: 28px;
+    }
+    .btn{
+        width: 200px;
+        height: 40px;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .just_txt_recent_news{
+        font-size: 23px;
+    }
+    .bottom_line_recent_news{
+        width: 140px;
+    }
+    .recent_news_txt{
+        font-size: 13px;
+    }
+    .recent_news_title{
+        font-size: 23px;
+    }
+    .btn{
+        width: 150px;
+        height: 30px;
+        font-size: 18px;
+        margin-top: 50px;
+    }
+}
+/* END PARTY 4 */
+
+/* PAYEMENT INFO */
+
 .payment_info{
     display: flex;
     justify-content: space-evenly;
@@ -420,6 +678,25 @@ a:hover{
     padding: 20px;
 }
 
+@media screen and (max-width: 600px){
+    .payment_info{
+        padding: 15px;
+    }
+    .logo_payement{
+        height: 70px;
+    }
+}
+@media screen and (max-width: 450px){
+    .payment_info{
+        padding: 10px;
+    }
+    .logo_payement{
+        height: 60px;
+    }
+}
+/* END PAYEMENT INFO */
+
+/* LAST PARTY */
 .last_party{
     display: flex;
     justify-content: space-around;
@@ -466,7 +743,7 @@ a:hover{
 
 .img_4_spcial_grp{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .contact_num{
@@ -476,6 +753,7 @@ a:hover{
     font-size: 20px;
 }
 
+<<<<<<< HEAD
 
 
 
@@ -534,3 +812,153 @@ a:hover{
 .menu li:hover li {
     max-height: 15em;
 }
+=======
+@media screen and (max-width: 1000px){
+    .heol_logo_snd{
+        height: 50px;
+    }
+    .last_party_title{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .social_media_img{
+        height: 30px;
+        margin-top: 15px;
+    }
+    .adress_txt{
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .contact_num{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .last_party{
+        padding: 30px;
+    }
+    .heol_logo_snd{
+        height: 40px;
+    }
+    .last_party_title{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .social_media_img{
+        height: 25px;
+        margin-top: 10px;
+    }
+    .adress_txt{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .contact_num{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .last_party{
+        padding: 20px;
+    }
+    .heol_logo_snd{
+        height: 30px;
+    }
+    .last_party_title{
+        font-size: 16px;
+        margin-top: 8px;
+    }
+    .social_media_img{
+        height: 20px;
+        margin-top: 8px;
+    }
+    .adress_txt{
+        font-size: 16px;
+        margin-top: 8px;
+    }
+    .contact_num{
+        font-size: 16px;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .last_party{
+        padding: 10px;
+    }
+    .heol_logo_snd{
+        height: 30px;
+    }
+    .last_party_title{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .social_media_img{
+        height: 18px;
+        margin-top: 5px;
+    }
+    .adress_txt{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .contact_num{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .last_party{
+        padding: 5px;
+    }
+    .heol_logo_snd{
+        height: 30px;
+    }
+    .last_party_title{
+        font-size: 12px;
+        margin-top: 3px;
+    }
+    .social_media_img{
+        height: 16px;
+        margin-top: 3px;
+    }
+    .adress_txt{
+        font-size: 12px;
+        margin-top: 3px;
+    }
+    .contact_num{
+        font-size: 12px;
+        margin-top: 3px;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .last_party{
+        padding: 1px;
+    }
+    .heol_logo_snd{
+        height: 20px;
+        margin-top: 7px;
+    }
+    .last_party_title{
+        font-size: 10px;
+        margin-top: 3px;
+    }
+    .social_media_img{
+        height: 14px;
+        margin-top: 3px;
+    }
+    .adress_txt{
+        font-size: 10px;
+        margin-top: 3px;
+    }
+    .contact_num{
+        font-size: 10px;
+        margin-top: 3px;
+    }
+}
+/* END LAST PARTY */
+>>>>>>> 6b3f50984e69864bbd1fa9f62fb8e09c484f1820
