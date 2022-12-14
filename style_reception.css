@@ -665,6 +665,8 @@ a:hover{
 }
 /* END PARTY 4 */
 
+/* PAYEMENT INFO */
+
 .payment_info{
     display: flex;
     justify-content: space-evenly;
@@ -673,6 +675,23 @@ a:hover{
     padding: 20px;
 }
 
+@media screen and (max-width: 600px){
+    .payment_info{
+        padding: 15px;
+    }
+    .logo_payement{
+        height: 70px;
+    }
+}
+@media screen and (max-width: 450px){
+    .payment_info{
+        padding: 10px;
+    }
+    .logo_payement{
+        height: 60px;
+    }
+}
+/* END PAYEMENT INFO */
 .last_party{
     display: flex;
     justify-content: space-around;
