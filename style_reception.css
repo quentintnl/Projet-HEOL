@@ -13,17 +13,20 @@ body{
 a:visited{
     color: #333333;
 }
+
 li{
     list-style: none
 }
+
 .nav_bar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     font-size: 23px;
     color: #333333;
     list-style: none
 }
+
 a:hover{
     color:#4B6F43;
     transition:0.4s;
@@ -45,6 +48,62 @@ a:hover{
     padding-left: 4px;
 }
 
+@media screen and (max-width: 1100px){
+    .nav_bar{
+        font-size: 18px;
+    }
+    .heol_logo{
+        height: 100px;
+    }
+    .bag_logo{
+        height: 20px;
+    }
+    .user{
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .nav_bar{
+        font-size: 15px;
+    }
+    .heol_logo{
+        height: 75px;
+    }
+    .bag_logo{
+        height: 16px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .nav_bar{
+        font-size: 12px;
+    }
+    .heol_logo{
+        height: 65px;
+    }
+    .bag_logo{
+        height: 12px;
+        padding: 8px;
+        border-radius: 12px;
+    }
+    .log_in{
+        padding-left: 2px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .heol_logo{
+        height: 50px;
+    }
+    .nav_bar{
+        font-size: 10px;
+    }
+    .user{
+        display: none;
+    }
+}
+
 .product_show{
     display: flex;
     justify-content: flex-start;
@@ -61,9 +120,6 @@ a:hover{
     position: relative;
     height: 600px;
     left: -150px;
-    
-    
-    
 }
 
 .name_product_show{
