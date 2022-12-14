@@ -24,7 +24,7 @@ li{
 }
 .nav_bar{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     font-size: 23px;
     color: #333333;
@@ -129,6 +129,9 @@ a:hover{
     position: relative;
     height: 600px;
     left: -150px;
+    
+    
+    
 }
 
 .name_product_show{
