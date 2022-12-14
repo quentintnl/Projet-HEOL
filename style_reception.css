@@ -41,6 +41,9 @@ li{
 a:hover{
     color:#CC4E18;
     transition:0.4s;
+    
+}
+.discovery:hover{
     transform: scale(1.2);
 }
 .access_menu{
@@ -471,4 +474,63 @@ a:hover{
     margin-top: 20px;
     font-family: "Cormorant Garamond";
     font-size: 20px;
+}
+
+
+
+
+
+.menu{
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align: center;
+    
+}
+.menu ul {
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align: center;
+}
+.menu li {
+    background-color:#BA9755; 
+    background-image:#FAF0E6;
+    margin-bottom:2px;
+    border:solid 1px #BA9755;
+    
+}
+.menu li li {
+    max-height:0;
+    transition: all .5s;
+    background: #BA9755;
+    box-shadow: none;
+    border:none;
+}
+.menu a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #FAF0E6;
+    padding: 8px 0;
+    font-family: 'Philosopher';
+    font-size:1.2em;
+}
+.menu ul li a, .menu li:hover li a {
+    font-size:1em;
+}
+.menu li:hover {
+    background: #BA9755;
+    color:#BA9755;
+    
+}
+.menu li li:hover {
+    display: flex;
+    background: #BA9755;
+    color:#BA9755;
+    flex-direction: column;
+}
+
+.menu li:hover li {
+    max-height: 15em;
 }
