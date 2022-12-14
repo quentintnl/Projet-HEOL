@@ -181,9 +181,6 @@ a:hover{
     position: relative;
     height: 600px;
     left: -150px;
-    
-    
-    
 }
 
 .name_product_show{
@@ -230,33 +227,25 @@ a:hover{
     display: flex;
 }
 
+/* PARTY 3 */
+
 .show_2_product{
     margin-top: 700px;
     display: flex;
     justify-content: space-evenly;
 }
 
-.shoe_img{
+.img_2_product{
     height: 300px;
 }
 
-.sock_img{
-    height: 300px;
-}
-
-.shoe_title{
+.title_2_product{
     font-family: 'Philosopher';
     font-size: 20px;
     font-weight: bold;
 }
 
-.sock_title{
-    font-family: 'Philosopher';
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.sock_txt{
+.txt_2_product{
     display: inline-block;
     margin-top: 5px;
     font-family: 'Cormorant Garamond';
@@ -264,22 +253,11 @@ a:hover{
     font-weight: 500;
 }
 
-.shoe_txt{
-    display: inline-block;
-    margin-top: 5px;
-    font-family: 'Cormorant Garamond';
-    font-size: 20px;
-    font-weight: 500;
+.add_br{
+    display: none;
 }
 
-.discovery_shoe{
-    display: inline-block;
-    margin-top: 5px;
-    font-family: 'Philosopher';
-    font-size: 20px;
-}
-
-.discovery_sock{
+.discovery_shoe_sock{
     display: inline-block;
     margin-top: 5px;
     font-family: 'Philosopher';
@@ -299,6 +277,161 @@ a:hover{
 .shoe_discovery_display{
     display: flex;
 }
+
+@media screen and (max-width: 1250px){
+    .title_2_product{
+        font-size: 19px;
+    }
+    .txt_2_product{
+        font-size: 19px;
+    }
+    .img_2_product{
+        height: 250px;
+    }
+    .discovery_shoe_sock{
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .title_2_product{
+        font-size: 18px;
+    }
+    .txt_2_product{
+        font-size: 18px;
+    }
+    .img_2_product{
+        height: 200px;
+    }
+    .sock_img{
+        height: 200px;
+    }
+    .discovery_shoe_sock{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .title_2_product{
+        font-size: 16px;
+    }
+    .txt_2_product{
+        font-size: 16px;
+    }
+    .img_2_product{
+        height: 180px;
+    }
+    .discovery_shoe_sock{
+        font-size: 16px;
+    }
+    .bottom_line_2_product_show{
+        width : 80px; 
+    }
+}
+
+@media screen and (max-width: 800px){
+    .title_2_product{
+        font-size: 15px;
+    }
+    .txt_2_product{
+        font-size: 15px;
+    }
+    .img_2_product{
+        height: 160px;
+    }
+    .discovery_shoe_sock{
+        font-size: 15px;
+    }
+    .bottom_line_2_product_show{
+        width : 75px; 
+    }
+}
+
+@media screen and (max-width: 750px){
+    .show_2_product{
+        flex-direction: column;
+        align-items: center;
+    }
+    .title_2_product{
+        display: inline-block;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .txt_2_product{
+        font-size: 20px;
+    }
+    .img_2_product{
+        height: 200px;
+    }
+    .discovery_shoe_sock{
+        font-size: 20px;
+    }
+    .bottom_line_2_product_show{
+        width : 100px; 
+    }
+}
+
+@media screen and (max-width: 600px){
+    .title_2_product{
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 50px;
+    }
+    .txt_2_product{
+        font-size: 16px;
+    }
+    .img_2_product{
+        height: 180px;
+    }
+    .discovery_shoe_sock{
+        font-size: 16px;
+    }
+    .bottom_line_2_product_show{
+        width : 80px; 
+    }
+}
+
+@media screen and (max-width: 450px){
+    .title_2_product{
+        display: inline-block;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+    .txt_2_product{
+        font-size: 14px;
+    }
+    .img_2_product{
+        height: 160px;
+    }
+    .discovery_shoe_sock{
+        font-size: 14px;
+    }
+    .bottom_line_2_product_show{
+        width : 70px;
+        margin-top: 5px; 
+    }
+}
+
+@media screen and (max-width: 380px){
+    .title_2_product{
+        display: inline-block;
+        font-size: 13px;
+        margin-top: 30px;
+    }
+    .txt_2_product{
+        font-size: 13px;
+    }
+    .img_2_product{
+        height: 140px;
+    }
+    .discovery_shoe_sock{
+        font-size: 13px;
+    }
+    .bottom_line_2_product_show{
+        width : 65px; 
+    }
+}
+/* END PARTY 3 */
 
 .recent_news{
     display: flex;
