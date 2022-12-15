@@ -752,12 +752,6 @@ a:hover{
     font-family: "Cormorant Garamond";
     font-size: 20px;
 }
-
-<<<<<<< HEAD
-
-
-
-
 .menu{
     padding:0;
     margin:0;
@@ -812,7 +806,6 @@ a:hover{
 .menu li:hover li {
     max-height: 15em;
 }
-=======
 @media screen and (max-width: 1000px){
     .heol_logo_snd{
         height: 50px;
@@ -961,4 +954,3 @@ a:hover{
     }
 }
 /* END LAST PARTY */
->>>>>>> 6b3f50984e69864bbd1fa9f62fb8e09c484f1820
