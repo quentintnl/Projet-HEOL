@@ -13,14 +13,25 @@ body{
 a:visited{
     color: #333333;
 }
+
 .heol_logo{
     height: 80px;
 }
+
 li{
     list-style: none
 }
 
-.nav_bar li{
+.menu ul{
+    display: flex;
+    padding-left: 0px;
+}
+
+.txt_menu{
+    display: none;
+}
+
+.space_menu{
     margin-right: 5em;
 }
 
@@ -30,12 +41,8 @@ li{
     align-items: center;
     font-size: 23px;
     color: #333333;
-    margin-top: 10px
-}
-
-.nav_bar ul{
-    display: flex;
-    justify-content: space-around;
+    margin-top: 10px;
+    margin-left: 0px;
 }
 
 a:hover{
@@ -63,9 +70,11 @@ a:hover{
     padding-left: 4px;
 }
 
+
+
 @media screen and (max-width: 1300px){
-    .nav_bar li{
-        margin-right: 4em;
+    .space_menu{
+        margin-right: 3em;
     }
 }
 
@@ -94,8 +103,8 @@ a:hover{
     .bag_logo{
         height: 16px;
     }
-    .nav_bar li{
-        margin-right: 3em;
+    .space_menu{
+        margin-right: 2em;
     }
 }
 
@@ -117,73 +126,148 @@ a:hover{
     }
 }
 
-@media screen and (max-width: 700px){
-    .nav_bar{
-        font-size: 12px;
+@media screen and (max-width: 750px){
+    .nav_bar ul{
+        display: flex;
+        flex-direction: column;
     }
-    .heol_logo{
-        height: 40px;
-    }
-    .bag_logo{
-        height: 12px;
-        padding: 8px;
-        border-radius: 12px;
-    }
-    .log_in{
-        padding-left: 2px;
-    }
-    .nav_bar li{
-        margin-right: 3em;
-    }
-}
 
-@media screen and (max-width: 650px){
-    .heol_logo{
-        display: none;
+    .menu{
+        padding:0;
+        margin:0;
+        list-style:none;
+        text-align: center;
+        
     }
-    .nav_bar{
-        font-size: 14px;
-    }
-    .user{
-        display: none;
-    }
-}
 
-@media screen and (max-width: 600px){
-    .nav_bar li{
-        margin-right: 2em;
+    .menu ul {
+        padding:0;
+        margin:0;
+        list-style:none;
+        text-align: center;
     }
-    .nav_bar{
-        font-size: 12px;
+
+    .menu li {
+        background-color:#BA9755; 
+        background-image:#FAF0E6;
+        margin-bottom:2px;
+        border:solid  #BA9755;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .menu li li {
+        max-height:0;
+        transition: all 1.2s;
+        background: #BA9755;
+        box-shadow: none;
+        border:none;
+    }
+
+    .menu a {
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color: #FAF0E6;
+        padding: 8px 0;
+        font-family: 'Philosopher';
+        font-size:1.2em;
+    }
+
+    .menu ul li a, .menu li:hover li a {
+        font-size:1em;
+    }
+
+    .menu li:hover {
+        background: #BA9755;
+        color:#BA9755;
+        
+    }
+
+    .menu li li:hover {
+        display: flex;
+        background: #BA9755;
+        color:#BA9755;
+        flex-direction: column;
+    }
+
+    .menu li:hover li {
+        max-height: 15em;
+    }
+
+    .space_menu{
+        margin-right: 0px;
     }
 }
 
 @media screen and (max-width: 500px){
-    .nav_bar{
+    .menu li {
+        margin-bottom: 0px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .heol_logo{
+        height: 40px;
+    }
+    .user{
+        height: 15px;
+    }
+    .log_in{
         font-size: 12px;
     }
     .bag_logo{
         height: 14px;
-        padding: 6px
+        padding: 8px;
     }
 }
 
+@media screen and (max-width: 400px){
+    .menu li {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .heol_logo{
+        height: 35px;
+    }
+    .user{
+        height: 14px;
+    }
+    .bag_logo{
+        height: 14px;
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .heol_logo{
+        height: 30px;
+    }
+    .user{
+        height: 12px;
+    }
+    .bag_logo{
+        height: 12px;
+        padding: 8px;
+    }
+}
+
+/* END NAVBAR */
+
+/* PRODUCT SHOW */
+
 .product_show{
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    justify-content: flex-start;
-    position: absolute;
-    padding-left: 50px;
-    width: 1400px;
-    height: 500px;
-    left: 200px;
-    top: 159px;
+    justify-content: space-around;
     background: #E7D0AD;
+    align-items: center;
+    width: 1300px;
 }
 
 .product_show_img{
-    position: relative;
-    height: 600px;
-    left: -150px;
+    height: 400px;
 }
 
 .name_product_show{
@@ -204,7 +288,7 @@ a:hover{
 .bottom_line_product_show{
     margin-top: 50px;
     border-top: 1px solid #000;
-    width : 100px; 
+    width : 500px; 
 }
 
 .discovery{
@@ -215,11 +299,6 @@ a:hover{
     margin-top: 8px;
 }
 
-.bottom_line_product_show2{
-    margin-top: 40px;
-    border-top: 1px solid #000;
-    width : 100px; 
-}
 .product{
     background-color:#E7D0AD;
     position: absolute;
@@ -230,10 +309,117 @@ a:hover{
     display: flex;
 }
 
+@media screen and (max-width: 1500px){
+    .product_show{
+        width: 1000px;
+    }
+    .product_show_img{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .product_show{
+        width: 900px;
+    }
+    .product_show_img{
+        height: 300px;
+    }
+    .name_product_show{
+        font-size: 40px;
+    }
+    .description_txt_product{
+        font-size: 20px;
+    }
+    .bottom_line_product_show{
+        width : 400px; 
+    }
+}
+
+@media screen and (max-width: 950px){
+    .product_show{
+        width: 800px;
+    }
+    .product_show_img{
+        height: 250px;
+    }
+    .name_product_show{
+        font-size: 35px;
+    }
+    .description_txt_product{
+        font-size: 16px;
+    }
+    .bottom_line_product_show{
+        width : 350px; 
+    }
+}
+
+@media screen and (max-width: 950px){
+    .product_show{
+        width: 700px;
+    }
+    .product_show_img{
+        height: 200px;
+    }
+    .name_product_show{
+        font-size: 30px;
+    }
+    .description_txt_product{
+        font-size: 14px;
+    }
+    .bottom_line_product_show{
+        width : 300px; 
+    }
+}
+
+@media screen and (max-width: 750px){
+    .product_show{
+        width: 600px;
+    }
+    .product_show_img{
+        height: 200px;
+    }
+    .name_product_show{
+        font-size: 30px;
+    }
+    .description_txt_product{
+        font-size: 14px;
+    }
+    .bottom_line_product_show{
+        width : 300px; 
+    }
+}
+
+@media screen and (max-width: 750px){
+    .product_show{
+        align-items: center;
+        width: 500px;
+    }
+    .product_show_img{
+        display: none;
+    }
+    .name_product_show{
+        font-size: 30px;
+    }
+    .description_txt_product{
+        font-size: 14px;
+    }
+    .bottom_line_product_show{
+        width : 300px; 
+    }
+    .align_text_show{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
 /* PARTY 3 */
 
 .show_2_product{
-    margin-top: 700px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -752,6 +938,7 @@ a:hover{
     font-family: "Cormorant Garamond";
     font-size: 20px;
 }
+<<<<<<< HEAD
 .menu{
     padding:0;
     margin:0;
@@ -806,6 +993,9 @@ a:hover{
 .menu li:hover li {
     max-height: 15em;
 }
+=======
+
+>>>>>>> 982f3d5de9da2de3e6f34fb001a43e31aa89c7f0
 @media screen and (max-width: 1000px){
     .heol_logo_snd{
         height: 50px;
@@ -953,4 +1143,8 @@ a:hover{
         margin-top: 3px;
     }
 }
+<<<<<<< HEAD
 /* END LAST PARTY */
+=======
+/* END LAST PARTY */
+>>>>>>> 982f3d5de9da2de3e6f34fb001a43e31aa89c7f0
