@@ -374,6 +374,8 @@ a:hover{
 
 @media screen and (max-width: 750px){
     .product_show{
+        display: flex;
+        justify-content: center;
         width: 600px;
     }
     .product_show_img{
@@ -387,6 +389,9 @@ a:hover{
     }
     .bottom_line_product_show{
         width : 300px; 
+    }
+    .discovery_class{
+        text-align: center;
     }
 }
 
