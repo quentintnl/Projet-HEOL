@@ -943,7 +943,64 @@ a:hover{
     font-family: "Cormorant Garamond";
     font-size: 20px;
 }
+<<<<<<< HEAD
+.menu{
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align: center;
+    
+}
+.menu ul {
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align: center;
+}
+.menu li {
+    background-color:#BA9755; 
+    background-image:#FAF0E6;
+    margin-bottom:2px;
+    border:solid 1px #BA9755;
+    
+}
+.menu li li {
+    max-height:0;
+    transition: all .5s;
+    background: #BA9755;
+    box-shadow: none;
+    border:none;
+}
+.menu a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #FAF0E6;
+    padding: 8px 0;
+    font-family: 'Philosopher';
+    font-size:1.2em;
+}
+.menu ul li a, .menu li:hover li a {
+    font-size:1em;
+}
+.menu li:hover {
+    background: #BA9755;
+    color:#BA9755;
+    
+}
+.menu li li:hover {
+    display: flex;
+    background: #BA9755;
+    color:#BA9755;
+    flex-direction: column;
+}
 
+.menu li:hover li {
+    max-height: 15em;
+}
+=======
+
+>>>>>>> 982f3d5de9da2de3e6f34fb001a43e31aa89c7f0
 @media screen and (max-width: 1000px){
     .heol_logo_snd{
         height: 50px;
@@ -1091,4 +1148,8 @@ a:hover{
         margin-top: 3px;
     }
 }
+<<<<<<< HEAD
 /* END LAST PARTY */
+=======
+/* END LAST PARTY */
+>>>>>>> 982f3d5de9da2de3e6f34fb001a43e31aa89c7f0

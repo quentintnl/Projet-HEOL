@@ -82,8 +82,16 @@ a:hover{
     flex-direction: column;
     align-items: center;
 }
+.name_product1 h2{
+    font-size: 35px;
+}
 .name_product1 span{
-    font-size: 45px;
+    font-size: 20px;
+}
+.product_size{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
 }
 .price_product1{
     margin-top: 58px;
@@ -105,6 +113,24 @@ a:hover{
     
 }
 .btn:hover{
+    color: #FAF0E6;
+    background-color: #4B6F43;
+}
+
+.btn_size{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    width: auto;
+    height: 40px;
+    color: #ffffff;
+    background-color: #BA9755;
+    cursor: pointer;
+    transition: 0.4s; 
+}
+.btn_size:hover{
     color: #FAF0E6;
     background-color: #4B6F43;
 }
@@ -197,9 +223,31 @@ a:hover{
     font-size: 20px;
 }
 
+.product_number{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
 
-
-
-
-
-
+.btn_cart{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+    color: #ffffff;
+    background-color: #BA9755;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+    
+}
+.btn_cart:hover{
+    color: #FAF0E6;
+    background-color: #4B6F43;
+}
