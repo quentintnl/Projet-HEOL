@@ -174,7 +174,7 @@ a:hover{
     padding: 20px;
 }
 
-.last_party{
+.last_part{
     display: flex;
     justify-content: space-around;
     background-color: #BA9755;
@@ -194,7 +194,7 @@ a:hover{
     margin-top: 20px;
 }
 
-.last_party_title{
+.last_part_title{
     font-family: "Philosopher";
     font-size: 24px;
     font-weight: bolder;

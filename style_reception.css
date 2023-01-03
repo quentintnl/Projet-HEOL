@@ -440,7 +440,7 @@ a:hover{
 
 
 
-/* PARTY 3 */
+/* PART 3 */
 
 .show_2_product{
     margin-top: 100px;
@@ -644,9 +644,9 @@ a:hover{
         width : 65px; 
     }
 }
-/* END PARTY 3 */
+/* END PART 3 */
 
-/* PARTY 4 */
+/* PART 4 */
 
 .recent_news{
     display: flex;
@@ -876,7 +876,7 @@ a:hover{
         margin-top: 50px;
     }
 }
-/* END PARTY 4 */
+/* END PART 4 */
 
 /* PAYEMENT INFO */
 
@@ -906,8 +906,8 @@ a:hover{
 }
 /* END PAYEMENT INFO */
 
-/* LAST PARTY */
-.last_party{
+/* LAST PART */
+.last_part{
     display: flex;
     justify-content: space-around;
     background-color: #BA9755;
@@ -927,7 +927,7 @@ a:hover{
     margin-top: 20px;
 }
 
-.last_party_title{
+.last_part_title{
     font-family: "Philosopher";
     font-size: 24px;
     font-weight: bolder;
@@ -1023,7 +1023,7 @@ a:hover{
     .heol_logo_snd{
         height: 50px;
     }
-    .last_party_title{
+    .last_part_title{
         font-size: 20px;
         margin-top: 15px;
     }
@@ -1042,13 +1042,13 @@ a:hover{
 }
 
 @media screen and (max-width: 750px){
-    .last_party{
+    .last_part{
         padding: 30px;
     }
     .heol_logo_snd{
         height: 40px;
     }
-    .last_party_title{
+    .last_part_title{
         font-size: 18px;
         margin-top: 10px;
     }
@@ -1067,13 +1067,13 @@ a:hover{
 }
 
 @media screen and (max-width: 650px){
-    .last_party{
+    .last_part{
         padding: 20px;
     }
     .heol_logo_snd{
         height: 30px;
     }
-    .last_party_title{
+    .last_part_title{
         font-size: 16px;
         margin-top: 8px;
     }
@@ -1092,13 +1092,13 @@ a:hover{
 }
 
 @media screen and (max-width: 550px){
-    .last_party{
+    .last_part{
         padding: 10px;
     }
     .heol_logo_snd{
         height: 30px;
     }
-    .last_party_title{
+    .last_part_title{
         font-size: 14px;
         margin-top: 5px;
     }
@@ -1117,13 +1117,13 @@ a:hover{
 }
 
 @media screen and (max-width: 450px){
-    .last_party{
+    .last_part{
         padding: 5px;
     }
     .heol_logo_snd{
         height: 30px;
     }
-    .last_party_title{
+    .last_part_title{
         font-size: 12px;
         margin-top: 3px;
     }
@@ -1142,14 +1142,14 @@ a:hover{
 }
 
 @media screen and (max-width: 390px){
-    .last_party{
+    .last_part{
         padding: 1px;
     }
     .heol_logo_snd{
         height: 20px;
         margin-top: 7px;
     }
-    .last_party_title{
+    .last_part_title{
         font-size: 10px;
         margin-top: 3px;
     }
@@ -1166,4 +1166,4 @@ a:hover{
         margin-top: 3px;
     }
 }
-/* END LAST PARTY */
+/* END LAST PART */
