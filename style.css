@@ -18,7 +18,7 @@ a:hover{
 }
 
 .product_show{
-    justify-content: flex-start;
+    justify-content: space-between;
     display: flex;
 }
 .product{
@@ -50,8 +50,8 @@ a:hover{
     margin: auto;
       
 }
-.name_product1 {
-    margin-left: 100px;
+.name_product {
+    font-size: 30px;
     margin-top: 40px;
     font-family: 'Philosopher';
     text-align: center;
@@ -59,9 +59,16 @@ a:hover{
     flex-direction: column;
     align-items: center;
 }
-.name_product1 h2{
-    font-size: 35px;
+.name_product1 {
+    font-size: 30px;
+    margin-top: 40px;
+    font-family: 'Philosopher';
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 .name_product1 span{
     font-size: 20px;
 }
@@ -133,13 +140,16 @@ a:hover{
     font-style: normal;
     font-size: 20px;
 }
-.name_product{
-    margin-left: 100px;
-    
+.description_name_product{
+    font-size: 20px;
     font-family: 'Philosopher';
-    justify-content: flex-start;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+
 }
+
 
 
 
@@ -234,4 +244,56 @@ a:hover{
 .btn_cart:hover{
     color: #FAF0E6;
     background-color: #4B6F43;
+}
+
+@media screen and (max-width:1000px) {
+    .btn{
+        width: 250px;
+        font-size: 20px;
+    }
+    .product_show{
+        flex-direction: column;
+    }
+    .product{
+        width: 100%;
+    }
+    .name_product1{
+        margin-left: 0px;
+    }
+    .nav_bar{
+        display: none;
+    }
+    
+    
+}
+@media screen and (max-width:750px) {
+    .name_product1 h2{
+        font-size:30px
+    }
+    .name_product1 h3{
+        font-size:30px
+    }
+    .name_product h2{
+        font-size:20px
+    }
+    .description_txt_product{
+        font-size:18px ;
+    }
+    .pict_description{
+        height: 350px;
+
+    }
+
+}
+@media screen and (max-width:600px) {
+    .product_pict_view img{
+        height: 300px;
+    }
+    .product_pict_select img{
+        height: 100px;
+    }
+    .product{
+        height: auto;
+    }
+    
 }
