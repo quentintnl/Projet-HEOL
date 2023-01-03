@@ -35,7 +35,7 @@ li{
     margin-right: 5em;
 }
 
-.nav_bar{
+.navbar{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -47,207 +47,76 @@ li{
 
 a:hover{
     color:#CC4E18;
-    transition:0.4s;
+    transition:0.5s;
     
 }
 .discovery:hover{
     transform: scale(1.2);
 }
-.access_menu{
+
+.icon-bars{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    background-color: #BA9755;
+    width: 80%;
+    position: relative;
+    transform: translateY(-100%);
+    transition: all 0.4s linear;
 }
 
-.bag_logo{
-    height: 24px;
-    background-color: #E7D0AD;
-    padding: 10px;
-    border-radius: 20px;
+.show{
+    transform: translateY(0%);
 }
 
-.log_in{
-    padding-left: 4px;
+.bars{
+    position: absolute;
+    top:20px;
+    right: 120px;
+    font-size: 2.5rem;
+    color: #ba9755;
 }
 
-
-
-@media screen and (max-width: 1300px){
-    .space_menu{
-        margin-right: 3em;
-    }
+.icon-bars a{
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 1.5rem;
+    color: #FAF0E6;
 }
 
-@media screen and (max-width: 1150px){
-    .nav_bar{
-        font-size: 20px;
-    }
-    .heol_logo{
-        height: 70px;
-    }
-    .bag_logo{
-        height: 20px;
-    }
-    .user{
-        height: 20px;
-    }
+.icon-bars a.active{
+    background-color: #cc4e18;
+}
+
+.icon-bars a:hover{
+    background-color: #4b6f43;
 }
 
 @media screen and (max-width: 1000px){
-    .nav_bar{
-        font-size: 19px;
-    }
-    .heol_logo{
-        height: 60px;
-    }
-    .bag_logo{
-        height: 16px;
-    }
-    .space_menu{
-        margin-right: 2em;
+    .icon-bars{
+        width: 70%;
     }
 }
 
-@media screen and (max-width: 900px){
-    .nav_bar{
-        font-size: 16px;
+@media screen and (max-width: 700px){
+    .bars{
+        display: none;
     }
-    .heol_logo{
-        height: 50px;
-    }
-}
-
-@media screen and (max-width: 800px){
-    .heol_logo{
-        height: 40px;
-    }
-    .nav_bar{
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 750px){
-    .nav_bar ul{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .menu{
-        padding:0;
-        margin:0;
-        list-style:none;
-        text-align: center;
-        
-    }
-
-    .menu ul {
-        padding:0;
-        margin:0;
-        list-style:none;
-        text-align: center;
-    }
-
-    .menu li {
-        background-color:#BA9755; 
-        background-image:#FAF0E6;
-        margin-bottom:2px;
-        border:solid  #BA9755;
-        padding-right: 20px;
-        padding-left: 20px;
-    }
-
-    .menu li li {
-        max-height:0;
-        transition: all 1.2s;
-        background: #BA9755;
-        box-shadow: none;
-        border:none;
-    }
-
-    .menu a {
-        display: flex;
-        flex-direction: column;
-        text-decoration: none;
-        color: #FAF0E6;
-        padding: 8px 0;
-        font-family: 'Philosopher';
-        font-size:1.2em;
-    }
-
-    .menu ul li a, .menu li:hover li a {
-        font-size:1em;
-    }
-
-    .menu li:hover {
-        background: #BA9755;
-        color:#BA9755;
-        
-    }
-
-    .menu li li:hover {
-        display: flex;
-        background: #BA9755;
-        color:#BA9755;
-        flex-direction: column;
-    }
-
-    .menu li:hover li {
-        max-height: 15em;
-    }
-
-    .space_menu{
-        margin-right: 0px;
+    .icon-bars{
+        width: 100%;
+        transform: translateY(0%)
     }
 }
 
 @media screen and (max-width: 500px){
-    .menu li {
-        margin-bottom: 0px;
-        padding-right: 5px;
-        padding-left: 5px;
-    }
-    .heol_logo{
-        height: 40px;
-    }
-    .user{
-        height: 15px;
-    }
-    .log_in{
-        font-size: 12px;
-    }
-    .bag_logo{
-        height: 14px;
-        padding: 8px;
+    .icon-bars a{
+        font-size: 1.5em;
     }
 }
 
-@media screen and (max-width: 400px){
-    .menu li {
-        padding-right: 0px;
-        padding-left: 0px;
-    }
-    .heol_logo{
-        height: 35px;
-    }
-    .user{
-        height: 14px;
-    }
-    .bag_logo{
-        height: 14px;
-        padding: 8px;
-    }
-}
-
-@media screen and (max-width: 350px){
-    .heol_logo{
-        height: 30px;
-    }
-    .user{
-        height: 12px;
-    }
-    .bag_logo{
-        height: 12px;
-        padding: 8px;
+@media screen and (max-width: 500px){
+    .icon-bars a{
+        font-size: 1em;
     }
 }
 
