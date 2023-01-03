@@ -1,8 +1,17 @@
-const counter = document.getElementById("count");
-const add_one = document.getElementById("add_one")
-const delete_one = document.getElementById("delete_one")
+var cart = 0;
 
-counter.value=1
-onclick(counter.value+1)
-counter.value=1+4;
-counter.innerHTML = counter.value;
+function ajout() {
+  cart++;
+  document.getElementById("count").textContent   = cart;
+}
+
+document.getElementById("add_one").addEventListener("click", ajout);
+
+
+function remove() {
+    cart--;
+    document.getElementById("count").textContent   = cart;
+  }
+  
+  document.getElementById("delete_one").addEventListener("click", remove);
+console.log(count)
