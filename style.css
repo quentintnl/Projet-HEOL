@@ -88,11 +88,16 @@ a:hover{
 .name_product1 span{
     font-size: 20px;
 }
-.product_size{
+.size{
+    font-size:25px;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
 }
+.size span{
+    margin-right: 0.5em;
+}
+
 .price_product1{
     margin-top: 58px;
     font-size: 30px ;
@@ -117,18 +122,20 @@ a:hover{
     background-color: #4B6F43;
 }
 
+
 .btn_size{
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 23px;
+    font-size: 10px;
     width: auto;
-    height: 40px;
+    height: 25px;
     color: #ffffff;
     background-color: #BA9755;
     cursor: pointer;
     transition: 0.4s; 
+    margin-right: 0.3em;
 }
 .btn_size:hover{
     color: #FAF0E6;
