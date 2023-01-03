@@ -11,7 +11,16 @@ document.getElementById("add_one").addEventListener("click", ajout);
 function remove() {
     cart--;
     document.getElementById("count").textContent   = cart;
+    
   }
-  
   document.getElementById("delete_one").addEventListener("click", remove);
-console.log(count)
+ 
+
+
+<div class="product_number">
+  <button id="delete_one"type="button" class="btn_cart">-</button>
+  <span id="count">1</span>
+  <button id="add_one"type="button" class="btn_cart">+</button>
+</div>
+
+
