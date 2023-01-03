@@ -338,24 +338,6 @@ a:hover{
 
 @media screen and (max-width: 950px){
     .product_show{
-        width: 800px;
-    }
-    .product_show_img{
-        height: 250px;
-    }
-    .name_product_show{
-        font-size: 35px;
-    }
-    .description_txt_product{
-        font-size: 16px;
-    }
-    .bottom_line_product_show{
-        width : 350px; 
-    }
-}
-
-@media screen and (max-width: 950px){
-    .product_show{
         width: 700px;
     }
     .product_show_img{
@@ -374,26 +356,18 @@ a:hover{
 
 @media screen and (max-width: 750px){
     .product_show{
+        display: flex;
+        justify-content: center;
         width: 600px;
     }
-    .product_show_img{
-        height: 200px;
-    }
-    .name_product_show{
-        font-size: 30px;
-    }
-    .description_txt_product{
-        font-size: 14px;
+    .align_text_show{
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
     }
     .bottom_line_product_show{
-        width : 300px; 
-    }
-}
-
-@media screen and (max-width: 750px){
-    .product_show{
         align-items: center;
-        width: 500px;
     }
     .product_show_img{
         display: none;
@@ -407,10 +381,60 @@ a:hover{
     .bottom_line_product_show{
         width : 300px; 
     }
-    .align_text_show{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .discovery_class{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .product_show{
+        width: 450px;
+    }
+    .name_product_show{
+        font-size: 25px;
+    }
+    .description_txt_product{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .name_product_show{
+        margin-top: 50px;
+    }
+    .product_show{
+        width: 400px;
+    }
+    .name_product_show{
+        font-size: 20px;
+    }
+    .description_txt_product{
+        font-size: 11px;
+    }
+    .discovery{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .name_product_show{
+        margin-top: 50px;
+    }
+    .product_show{
+        width: 300px;
+    }
+    .name_product_show{
+        font-size: 18px;
+    }
+    .description_txt_product{
+        font-size: 10px;
+    }
+    .discovery{
+        font-size: 22px;
+    }
+    .bottom_line_product_show{
+        width : 200px; 
+        margin-top: 25px;
     }
 }
 
@@ -938,6 +962,7 @@ a:hover{
     font-family: "Cormorant Garamond";
     font-size: 20px;
 }
+
 .menu{
     padding:0;
     margin:0;
@@ -992,6 +1017,8 @@ a:hover{
 .menu li:hover li {
     max-height: 15em;
 }
+
+
 @media screen and (max-width: 1000px){
     .heol_logo_snd{
         height: 50px;
@@ -1139,4 +1166,4 @@ a:hover{
         margin-top: 3px;
     }
 }
-/* END LAST PART */
+/* END LAST PARTY */
