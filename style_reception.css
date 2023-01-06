@@ -56,12 +56,18 @@ a:hover{
 
 .icon-bars{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     background-color: #BA9755;
     width: 80%;
     position: relative;
     transform: translateY(-100%);
     transition: all 0.4s linear;
+}
+
+.heol_logo_snd_navbar{
+    height: 60px;
+    margin-left: 5px;
 }
 
 .show{
@@ -79,7 +85,7 @@ a:hover{
 .icon-bars a{
     display: block;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
     padding: 1.5rem;
     color: #FAF0E6;
 }
@@ -92,13 +98,34 @@ a:hover{
     background-color: #4b6f43;
 }
 
-@media screen and (max-width: 1000px){
-    .icon-bars{
-        width: 70%;
+@media screen and (max-width: 1100px){
+    .icon-bars a{
+        font-size: 2em;
+    }
+    .heol_logo_snd_navbar{
+        height: 50px;
+    }
+    .bars{
+        right: 100px;
     }
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 1000px){
+    .heol_logo_snd_navbar{
+        height: 40px;
+    }
+    .bars{
+        right: 90px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .bars{
+        right: 50px;
+    }
+}
+
+@media screen and (max-width: 750px){
     .bars{
         display: none;
     }
@@ -108,7 +135,16 @@ a:hover{
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 650px){
+    .icon-bars a{
+        font-size: 1.8em;
+    }
+    .heol_logo_snd_navbar{
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 600px){
     .icon-bars a{
         font-size: 1.5em;
     }
@@ -117,6 +153,16 @@ a:hover{
 @media screen and (max-width: 500px){
     .icon-bars a{
         font-size: 1em;
+        padding: 1em;
+    }
+    .heol_logo_snd_navbar{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .icon-bars a{
+        font-size: 0.7em;
     }
 }
 
@@ -818,6 +864,7 @@ a:hover{
     display: inline-block;
     margin-top: 20px;
     height: 35px;
+    margin-right: 5px;
 }
 
 .img_4_spcial_grp{
@@ -1036,3 +1083,409 @@ a:hover{
     }
 }
 /* END LAST PART */
+
+/* CHECKOUT */
+
+/* NAVBAR CHECKOUT */
+.fa{
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 800;
+}
+.checkout_payement_check{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin-top: 50px;
+}
+.checkout-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #4B6F43;
+}
+
+.payement_icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #E7D0AD;
+}
+
+.check_icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #E7D0AD;
+}
+
+.txt_icon{
+    font-family: 'Cormorant Garamond';
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.right_line_checkout{
+    margin-top: 60px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-top: 1px solid #000;
+    width : 200px; 
+}
+
+@media screen and (max-width: 1200px){
+    .checkout_payement_check{
+        font-size: 1.5em;
+    }
+    .right_line_checkout{
+        margin-top: 50px;
+        margin-right: 40px;
+        margin-left: 40px;
+        width : 150px; 
+    }
+}
+
+@media screen and (max-width: 900px){
+    .checkout_payement_check{
+        font-size: 1.2em;
+    }
+    .right_line_checkout{
+        margin-top: 43px;
+        margin-right: 30px;
+        margin-left: 30px;
+        width : 130px; 
+    }
+}
+
+@media screen and (max-width: 700px){
+    .checkout_payement_check{
+        font-size: 1em;
+    }
+    .right_line_checkout{
+        margin-top: 36px;
+        margin-right: 20px;
+        margin-left: 20px;
+        width : 110px; 
+    }
+}
+
+@media screen and (max-width: 550px){
+    .checkout_payement_check{
+        font-size: 0.8em;
+    }
+    .right_line_checkout{
+        margin-top: 30px;
+        margin-right: 10px;
+        margin-left: 10px;
+        width : 90px; 
+    }
+}
+
+@media screen and (max-width: 450px){
+    .checkout_payement_check{
+        font-size: 0.7em;
+    }
+    .right_line_checkout{
+        margin-top: 28px;
+        margin-right: 5px;
+        margin-left: 5px;
+        width : 70px; 
+    }
+}
+
+/* END NAVBAR CHECKOUT */
+
+/* DELIVERY AND CHECKOUT PRICE */
+
+.delivery_and_checkout_detail{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.checkout_price_detail{
+    background-color: #E7D0AD;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.order_detail_txt{
+    font-family: 'Philosopher';
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.order_detail_class{
+    margin-top: 30px;
+}
+
+.order_detail_alt_txt{
+    margin-right: 2em;
+    font-size: 30px;
+}
+
+.order_detail_price{
+    font-size: 30px;
+}
+
+.top_line__totalcheckout{
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-top: 1px solid #000;
+    width : 300px; 
+}
+
+.delivery_all_info{
+    background-color: #E7D0AD;
+    padding: 30px;
+    font-family: 'Philosopher';
+    padding: 100px;
+}
+
+.delivery_all_info_txt{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.delivery_all_info_div{
+    margin-bottom: 30px;
+}
+
+.input_delivery{
+    font-family: 'Philosopher';
+    border: none;
+    padding-left: 200px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: #FAF0E6;
+    font-size: 22px;
+    text-align: start;
+}
+
+.delivery_txt{
+    font-size: 25px;
+}
+
+.btn_continue_payement_div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn_continue{
+    border: 2px solid #BA9755;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    width: 300px;
+    height: 50px;
+    color: #BA9755;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-top: 75px;
+}
+
+.btn_continue:hover{
+    color: #FAF0E6;
+    background-color: #4B6F43;
+    border: 2px solid #4B6F43;
+}
+
+.btn_payement{
+    border: 2px solid #BA9755;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    width: 300px;
+    height: 50px;
+    background-color: #BA9755;
+    color: #FAF0E6;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-top: 75px;
+}
+
+.btn_payement:hover{
+    color: #FAF0E6;
+    background-color: #4B6F43;
+    border: 2px solid #4B6F43;
+}
+
+@media screen and (max-width: 1500px){
+    .delivery_all_info{
+        padding: 80px;
+    }
+    .input_delivery{
+        padding-left: 150px;
+    }
+    .btn_payement{
+        width: 250px;
+    }
+    .btn_continue{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .delivery_all_info{
+        padding: 60px;
+    }
+    .input_delivery{
+        padding-left: 130px;
+    }
+    .checkout_price_detail{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 60px;
+    }
+    .btn_payement{
+        width: 230px;
+    }
+    .btn_continue{
+        width: 230px;
+    }
+    .delivery_all_info_txt{
+        font-size: 35px;
+    }
+    .order_detail_txt{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .delivery_all_info{
+        padding: 60px;
+    }
+    .input_delivery{
+        padding-left: 130px;
+    }
+    .checkout_price_detail{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 60px;
+    }
+    .btn_payement{
+        width: 230px;
+    }
+    .btn_continue{
+        width: 230px;
+    }
+    .delivery_all_info_txt{
+        font-size: 35px;
+    }
+    .order_detail_txt{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .delivery_all_info{
+        padding: 50px;
+    }
+    .input_delivery{
+        padding-left: 110px;
+    }
+    .checkout_price_detail{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+    }
+    .btn_payement{
+        width: 200px;
+        font-size: 18px;
+    }
+    .btn_continue{
+        width: 200px;
+        font-size: 18px;
+    }
+    .delivery_all_info_txt{
+        font-size: 30px;
+    }
+    .order_detail_txt{
+        font-size: 30px;
+    }
+    .delivery_txt{
+        font-size: 20px;
+    }
+    .order_detail_alt_txt{
+        font-size: 20px;
+    }
+    .top_line__totalcheckout{
+        width: 200px;
+    }
+    .order_detail_price{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .delivery_all_info{
+        padding: 30px;
+    }
+    .input_delivery{
+        padding-left: 20px;
+    }
+    .checkout_price_detail{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+    }
+    .btn_payement{
+        width: 300px;
+        margin-top: 40px;
+    }
+    .btn_continue{
+        width: 300px;
+        margin-top: 40px;
+    }
+    .delivery_all_info_txt{
+        font-size: 25px;
+    }
+    .order_detail_txt{
+        font-size: 25px;
+    }
+    .delivery_txt{
+        font-size: 20px;
+    }
+    .order_detail_alt_txt{
+        font-size: 20px;
+    }
+    .top_line__totalcheckout{
+        width: 200px;
+    }
+    .btn_continue_payement_div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .delivery_and_checkout_detail{
+        flex-direction: column;
+    }
+
+    .checkout_price_detail{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .delivery_all_info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+}
+
+/* END DELIVERY AND CHECKOUT PRICE */
+
+/* END CHECKOUT */

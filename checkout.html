@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="font-awesome.css">
     <link rel="stylesheet" href="style_reception.css" type="text/css"/>
     <!-- Cormorant Garamond -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,9 +19,87 @@
     <title>HEOL</title>
 </head>
 <body>
-    <div>
+    <div class="checkout_payement_check">
+        <div class="checkout-icon">
+            <i class="fa fa-shopping-cart "></i>
+            <span class="txt_icon">Panier</span>
+        </div>
+        <div class="right_line_checkout"></div> 
+        <div class="payement_icon">
+            <i class="fa fa-credit-card "></i>
+            <span class="txt_icon">Payement</span>
+        </div>
+        <div class="right_line_checkout"></div> 
+        <div class="check_icon">
+            <i class="fa fa-check "></i>
+            <span class="txt_icon">Confirmation</span>
+        </div>
+    </div>
+    <div class="delivery_and_checkout_detail">
         <div>
-            
+            <div  class="checkout_price_detail">
+                <div>
+                    <span class="order_detail_txt">Détail panier</span>
+                </div>
+                <div>
+                    <div class="order_detail_class">
+                        <span class="order_detail_alt_txt">Total du panier</span>
+                        <span class="order_detail_price">300€</span>
+                    </div>
+                    <div class="order_detail_class">
+                        <span class="order_detail_alt_txt">Frais de livraison</span>
+                        <span class="order_detail_price">0€</span>
+                    </div>
+                    <div class="top_line__totalcheckout"></div> 
+                    <div class="order_detail_class">
+                        <span class="order_detail_alt_txt">Total</span>
+                        <span class="order_detail_price">300€</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div  class="delivery_all_info">
+                <div class="delivery_all_info_div">
+                    <span class="delivery_all_info_txt">Information de livraison</span>
+                </div>
+                <div>
+                    <div>
+                        <span class="delivery_txt">Nom</span>
+                        <div>
+                            <input type="text" class="input_delivery">
+                        </div>
+                    </div>
+                    <div>
+                        <span class="delivery_txt">Adresse mail</span>
+                        <div>
+                            <input type="text" class="input_delivery">
+                        </div>
+                    </div>
+                    <div>
+                        <span class="delivery_txt">Adresse de livraison</span>
+                        <div>
+                            <input type="text" class="input_delivery">
+                        </div>
+                    </div>
+                    <div>
+                        <span class="delivery_txt">Code Postale</span>
+                        <div>
+                            <input type="text" class="input_delivery">
+                        </div>
+                    </div>
+                    <div>
+                        <span class="delivery_txt">Commune</span>
+                        <div>
+                            <input type="text" class="input_delivery">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn_continue_payement_div">
+                <a href="" class="btn_continue"><h4>Continuer mes achats</h4></a>
+                <a href="" class="btn_payement"><h4>Payement</h4></a>
+            </div>
         </div>
     </div>
 </body>
