@@ -46,7 +46,7 @@ li{
 }
 
 a:hover{
-    color:#CC4E18;
+    color:#4B6F43;
     transition:0.5s;
     
 }
@@ -638,14 +638,13 @@ a:hover{
     cursor: pointer;
     transition: 0.4s;
     margin-top: 75px;
-    
 }
+
 .btn:hover{
     color: #FAF0E6;
     background-color: #4B6F43;
     border: 2px solid #4B6F43;
 }
-
 
 .txt_color_discover_recent_news:hover{
     color:#4B6F43;
@@ -1091,31 +1090,39 @@ a:hover{
     font-family: "Font Awesome 5 Pro";
     font-weight: 800;
 }
+
 .checkout_payement_check{
     display: flex;
     justify-content: center;
     font-size: 2em;
     margin-top: 50px;
+    color: #BA9755;
 }
-.checkout-icon{
+
+.checkout_payement_check a.active{
+    color: #4B6F43;
+}
+
+.checkout_payement_check a:hover{
+    color: #cc4e18;
+}
+
+.checkout_icon{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #4B6F43;
 }
 
 .payement_icon{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #E7D0AD;
 }
 
 .check_icon{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #E7D0AD;
 }
 
 .txt_icon{
@@ -1489,3 +1496,145 @@ a:hover{
 /* END DELIVERY AND CHECKOUT PRICE */
 
 /* END CHECKOUT */
+
+/* CONFIRMATION */
+
+.confimed_all_info{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Philosopher';
+}
+
+.order_confirmed{
+    height: 400px;
+}
+
+.confirmed_img_txt{
+    display: flex;
+    flex-direction: column;
+    background-color: #E7D0AD;
+    padding: 50px;
+    align-items: center;
+    font-size: 28px;
+}
+
+.confirmed_txt{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.reception_after_buy_btn{
+    color: #FAF0E6;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    width: 400px;
+    height: 50px;
+    color: #BA9755;
+    background-color: #BA9755;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 30px;
+}
+
+.reception_after_buy_btn:hover{
+    color: #FAF0E6;
+    background-color: #4B6F43;
+    border: 2px solid #4B6F43;
+}
+
+.confirmed_payement_delivery{
+    background-color: #E7D0AD;
+    padding: 70px;
+}
+
+.who_delivery_time{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.delivery_time{
+    display: flex;
+    align-items: center;
+    margin-right: 100px ;
+}
+
+.who_delivery{
+    display: flex;
+    align-items: center;
+}
+
+.img_who_delivery_time{
+    height: 25px;
+    padding-right: 10px;
+}
+
+.confirmed_all_checkout{
+    justify-content: flex-start;
+}
+
+.confirmed_price{
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+}
+
+.confirmed_articles{
+    margin-right: 90px;
+}
+
+.confirmed_delivery_price{
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+    margin-top: 40px;
+}
+
+.confirmed_delivery_price_txt{
+    margin-right: 90px;
+}
+
+.confirmed_checkout{
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+    margin-top: 40px;
+}
+
+.confirmed_checkout_txt{
+    margin-right: 35px;
+}
+
+.confirmation_line_checkout{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-top: 1px solid #000;
+    width : 100%; 
+}
+
+.confirmed_total_checkout_price{
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px;
+}
+
+.total_txt{
+    margin-right: 120px;
+}
+
+.confiramtion_adress{
+    font-size: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.confirmed_adress_txt{
+    margin-right: 80px;
+}
