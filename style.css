@@ -1,6 +1,7 @@
 *{
     text-decoration: none;
 }
+
 body{
     display:inline;
     background-color: #FAF0E6;
@@ -18,15 +19,18 @@ a:hover{
 }
 
 .product_show{
-    justify-content: space-between;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
 .product{
+    justify-content: space-around;
     display: flex;
     background-color:#E7D0AD;
     width: 700px;
     height: 550px;
-    justify-content: space-between;
+    align-items: center;
 }
 
 .product_link{
@@ -38,27 +42,23 @@ a:hover{
 }
 
 .product_pict_select{
-    margin-left: 100px;
     margin-top:7px;
 }
+
 .product_pict_select img{
     height: 120px;
     opacity: 0.50;
 }
-.product_pict_view{
-    display: block;
-    margin: auto;
-      
-}
+
 .name_product {
     font-size: 30px;
-    margin-top: 40px;
     font-family: 'Philosopher';
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .name_product1 {
     font-size: 30px;
     margin-top: 40px;
@@ -72,20 +72,22 @@ a:hover{
 .name_product1 span{
     font-size: 20px;
 }
+
 .size{
     font-size:25px;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
 }
+
 .size span{
     margin-right: 0.5em;
 }
 
 .price_product1{
-    margin-top: 58px;
-    font-size: 30px ;
+    font-size: 30px;
 }
+
 .btn{
     text-align: center;
     display: flex;
@@ -101,11 +103,11 @@ a:hover{
     margin-top: 75px;
     
 }
+
 .btn:hover{
     color: #FAF0E6;
     background-color: #4B6F43;
 }
-
 
 .btn_size{
     text-align: center;
@@ -121,10 +123,12 @@ a:hover{
     transition: 0.4s; 
     margin-right: 0.3em;
 }
+
 .btn_size:hover{
     color: #FAF0E6;
     background-color: #4B6F43;
 }
+
 .pict_description{
     margin-top: 45px;
     display: flex;
@@ -133,9 +137,6 @@ a:hover{
 
 .description_txt_product{
     display: inline-block;
-    
-    margin-left: 100px;
-    margin-right: 100px;
     font-family: 'Cormorant Garamond';
     font-style: normal;
     font-size: 20px;
@@ -147,11 +148,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
-
-
-
 
 .payment_info{
     display: flex;
@@ -238,15 +235,33 @@ a:hover{
     transition: 0.4s;
     margin-left: 25px;
     margin-right: 25px;
-    
-    
 }
+
 .btn_cart:hover{
     color: #FAF0E6;
     background-color: #4B6F43;
 }
 
+.description_product1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description_product1_txt{
+    max-width: 72em;
+}
+
+@media screen and (max-width:1300px){
+    .description_product1_txt{
+        max-width: 60em;
+    }
+}
+
 @media screen and (max-width:1000px) {
+    .description_product1_txt{
+        max-width: 50em;
+    }
     .btn{
         width: 250px;
         font-size: 20px;
@@ -257,35 +272,59 @@ a:hover{
     .product{
         width: 100%;
     }
-    .name_product1{
-        margin-left: 0px;
-    }
     .nav_bar{
         display: none;
     }
     
     
 }
+
+@media screen and (max-width:850px) {
+    .description_product1_txt{
+        max-width: 40em;
+    }
+}
+
 @media screen and (max-width:750px) {
     .name_product1 h2{
         font-size:30px
-    }
-    .name_product1 h3{
-        font-size:30px
-    }
-    .name_product h2{
-        font-size:20px
     }
     .description_txt_product{
         font-size:18px ;
     }
     .pict_description{
         height: 350px;
-
     }
-
+    .price_product1{
+        margin-top: 30px
+    }
 }
+
+@media screen and (max-width:650px) {
+    .description_product1_txt{
+        max-width: 35em;
+    }
+    .name_product{
+        font-size: 25px;
+    }
+}
+
 @media screen and (max-width:600px) {
+    .name_product1 h2{
+        font-size:20px
+    }
+    .btn{
+        width: 200px;
+        height: 40px;
+        font-size: 18px;
+        margin-top: 50px;
+    }
+    .description_name_product{
+        font-size: 15px;
+    }
+    .description_product1_txt{
+        max-width: 30em;
+    }
     .product_pict_view img{
         height: 300px;
     }
@@ -295,5 +334,76 @@ a:hover{
     .product{
         height: auto;
     }
-    
+    .pict_description{
+        height: 300px;
+    }
+    .description_txt_product {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .description_product1_txt{
+        max-width: 25em;
+    }
+    .name_product{
+        font-size: 20px;
+    }
+    .name_product1 h2{
+        font-size: 20px
+    }
+    .name_product1{
+        margin-top: 20px
+    }
+    .price_product1{
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .description_product1_txt{
+        max-width: 20em;
+    }
+    .product_pict_view img{
+        height: 250px;
+    }
+    .product_pict_select img{
+        height: 75px;
+    }
+    .pict_description{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .description_product1_txt{
+        max-width: 15em;
+    }
+    .name_product1{
+        margin-top: 0px
+    }
+    .btn{
+        margin-top: 20px;
+    }
+    .price_product1{
+        margin-top: 0px;
+    }
+    .product_pict_view img{
+        height: 200px;
+    }
+    .product_pict_select img{
+        height: 50px;
+    }
+    .name_product{
+        font-size: 15px;
+    }
+    .price_product1{
+        font-size: 20px;
+    }
+    .name_product1{
+        font-size: 20px;
+    }
+    .description_name_product{
+        font-size: 12px;
+    }
 }
