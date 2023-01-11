@@ -1680,3 +1680,210 @@ a:hover{
 .confirmed_adress_txt{
     margin-right: 80px;
 }
+
+@media screen and (max-width: 1700px){
+    .confirmed_payement_delivery{
+        padding: 30px;
+    }
+    .confirmed_img_txt{
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .order_confirmed{
+        height: 300px;
+    }
+    .confirmed_price{
+        font-size: 30px;
+    }
+    .confirmed_delivery_price{
+        font-size: 30px;
+    }
+    .confirmed_checkout{
+        font-size: 30px;
+    }
+    .confirmed_total_checkout_price{
+        font-size: 40px;
+    }
+    .confiramtion_adress{
+        font-size: 25px;
+    }
+    .confirmed_adress_txt{
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .order_confirmed{
+        height: 200px;
+    }
+    .reception_after_buy_btn{
+        width: 350px;
+    }
+    .confirmed_txt{
+        font-size: 25px;
+    }
+    .confirmed_price{
+        font-size: 25px;
+    }
+    .confirmed_delivery_price{
+        font-size: 25px;
+    }
+    .confirmed_checkout{
+        font-size: 25px;
+    }
+    .confirmed_total_checkout_price{
+        font-size: 30px;
+    }
+    .confirmation_line_checkout{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .confiramtion_adress{
+        font-size: 20px;
+    }
+    .confirmed_adress_txt{
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .confimed_all_info{
+        flex-direction: column;
+    }
+    .confirmed_payement_delivery{
+        margin-top: 40px;
+    }
+    .order_confirmed{
+        height: 300px;
+    }
+    .confirmed_price{
+        font-size: 30px;
+    }
+    .confirmed_delivery_price{
+        font-size: 30px;
+    }
+    .confirmed_checkout{
+        font-size: 30px;
+    }
+    .confirmed_total_checkout_price{
+        font-size: 40px;
+    }
+    .confiramtion_adress{
+        font-size: 25px;
+    }
+    .confirmed_adress_txt{
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .order_confirmed{
+        height: 200px;
+    }
+    .reception_after_buy_btn{
+        width: 350px;
+    }
+    .confirmed_txt{
+        font-size: 25px;
+    }
+    .confirmed_price{
+        font-size: 25px;
+    }
+    .confirmed_delivery_price{
+        font-size: 25px;
+    }
+    .confirmed_checkout{
+        font-size: 25px;
+    }
+    .confirmed_total_checkout_price{
+        font-size: 30px;
+    }
+    .confirmation_line_checkout{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .confiramtion_adress{
+        font-size: 20px;
+    }
+    .confirmed_adress_txt{
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .order_confirmed{
+        height: 150px;
+    }
+    .reception_after_buy_btn{
+        width: 250px;
+        font-size: 20px;
+    }
+    .who_delivery_time{
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    .confirmed_txt{
+        font-size: 20px;
+    }
+    .confirmed_price{
+        font-size: 20px;
+    }
+    .confirmed_delivery_price{
+        font-size: 20px;
+    }
+    .confirmed_checkout{
+        font-size: 20px;
+    }
+    .confirmed_total_checkout_price{
+        font-size: 25px;
+    }
+    .confirmation_line_checkout{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .confiramtion_adress{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .order_confirmed{
+        height: 120px;
+    }
+    .reception_after_buy_btn{
+        width: 200px;
+        height: 30px;
+        font-size: 15px;
+    }
+    .confirmed_payement_delivery{
+        padding: 15px;
+    }
+    .who_delivery_time{
+        font-size: 10px;
+        margin-bottom: 40px;
+    }
+    .confirmed_txt{
+        font-size: 15px;
+    }
+    .confirmed_price{
+        font-size: 15px;
+    }
+    .confirmed_delivery_price{
+        font-size: 15px;
+    }
+    .confirmed_checkout{
+        font-size: 15px;
+    }
+    .confirmed_total_checkout_price{
+        font-size: 20px;
+    }
+    .confirmation_line_checkout{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .confiramtion_adress{
+        font-size: 10px;
+    }
+}
