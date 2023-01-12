@@ -1255,6 +1255,7 @@ a:hover{
     padding: 30px;
     font-family: 'Philosopher';
     padding: 100px;
+    text-align: center;
 }
 
 .delivery_all_info_txt{
@@ -1949,6 +1950,112 @@ a:hover{
     margin: auto
 }
 
-@media screen and (max-width: 400px){
-    
+@media screen and (max-width: 1250px){
+    .delivery_info_done{
+        font-size: 20px;
+    }
+    .all_info_payement{
+        width: 60em;
+    }
+    .method_payement_txt{
+        font-size: 35px;
+    }
+    .logo_for_payement{
+        height: 80px;
+    }
+    .type_payement{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .all_info_payement{
+        width: 50em;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .delivery_info_done{
+        font-size: 15px;
+    }
+    .all_info_payement{
+        width: 40em;
+    }
+    .method_payement_txt{
+        font-size: 30px;
+    }
+    .logo_for_payement{
+        height: 60px;
+    }
+    .type_payement{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .delivery_info_done{
+        font-size: 20px;
+    }
+    .all_info_payement{
+        width: 35em;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .delivery_info_done{
+        font-size: 18px;
+    }
+    .all_info_payement{
+        width: 30em;
+    }
+    .method_payement_txt{
+        font-size: 25px;
+    }
+    .logo_for_payement{
+        height: 60px;
+        margin-bottom: -20px;
+    }
+    .type_payement{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .delivery_info_done{
+        font-size: 15px;
+    }
+    .all_info_payement{
+        width: 25em;
+    }
+    .method_payement_txt{
+        font-size: 20px;
+    }
+    .logo_for_payement{
+        height: 50px;
+        margin-bottom: -10px;
+    }
+    .type_payement{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .delivery_info_done{
+        font-size: 12px;
+    }
+    .all_info_payement{
+        width: 20em;
+    }
+    .method_payement_txt{
+        font-size: 16px;
+    }
+    .logo_for_payement{
+        height: 50px;
+    }
+    .type_payement{
+        font-size: 12px;
+    }
+    .mail_txt_space{
+        margin-right: 30px;
+    }
 }
