@@ -11,7 +11,7 @@ body{
 }
 
 a:visited{
-    color: #E7D0AD;
+    color: #333333;
 }
 
 .heol_logo{
@@ -131,7 +131,8 @@ a:hover{
     }
     .icon-bars{
         width: 100%;
-        transform: translateY(0%)
+        transform: translateY(0%);
+        margin-bottom: 20px;
     }
 }
 
@@ -2057,5 +2058,102 @@ a:hover{
     }
     .mail_txt_space{
         margin-right: 30px;
+    }
+}
+
+/* DONE PAYEMENT INFO */
+
+/* OUR ARTICLES */
+
+.item_color{
+    background-color: #BA9755;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+}
+
+.articles_div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.articles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E7D0AD;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.articles_color{
+    width: 2em;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+
+.articles_txt{
+    font-family: 'Philosopher';
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+
+.articles_img{
+    height: 350px;
+}
+
+.price{
+    margin-top: -25px;
+}
+
+@media screen and (max-width: 1500px){
+    .articles_img{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .articles_img{
+        height: 250px;
+    }
+    .articles{
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .articles_img{
+        height: 200px;
+    }
+    .articles_txt{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .articles_img{
+        height: 180px;
+    }
+    .articles{
+        padding: 10px;
+    }
+    .articles_txt{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .articles_img{
+        height: 140px;
+    }
+    .articles{
+        padding: 6px;
+    }
+    .articles_txt{
+        font-size: 15px;
     }
 }
