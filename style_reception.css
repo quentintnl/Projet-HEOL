@@ -1211,12 +1211,16 @@ a:hover{
 }
 
 .checkout_price_detail{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-color: #E7D0AD;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
     padding-bottom: 70px;
     text-align: center;
+    margin-bottom: auto;
 }
 
 .order_detail_txt{
@@ -1886,4 +1890,65 @@ a:hover{
     .confiramtion_adress{
         font-size: 10px;
     }
+}
+
+/* PAYEMENT INFO */
+
+.delivery_info_done{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Philosopher';
+    font-size: 25px;
+}
+
+.mail_txt_space{
+    margin-right: 40px;
+}
+
+.all_info_payement{
+    margin: auto;
+    background-color: #E7D0AD;
+    width: 72em;
+}
+
+.method_payement_txt{
+    display: flex;
+    justify-content: center;
+    font-family: 'Philosopher';
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.type_payement{
+    font-family: 'Philosopher';
+    font-size: 30px;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-around;
+}
+
+.type_payement a:visited{
+    color: #121212
+}
+
+.div_payement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo_for_payement{
+    height: 100px;
+    margin-bottom: -30px;
+}
+
+.btn_confirm_payement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto
+}
+
+@media screen and (max-width: 400px){
+    
 }
