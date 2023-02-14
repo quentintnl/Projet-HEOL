@@ -27,7 +27,149 @@ li{
     padding-left: 0px;
 }
 
-.txt_menu{
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.philosopher{
+    font-family: 'Philosopher';
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.fa-navbar{
+    font-size: 2em;
+}
+
+a:hover{
+    color: #4B6F43;
+}
+
+.navbar-fa-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 290px;
+}
+
+.menu-navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    align-items: baseline;
+    margin-right: 1em;
+}
+
+.img-navbar{
+    margin-left: 2.5em;
+}
+
+.connect-display{
+    display: flex;
+    align-items: baseline;
+}
+
+.fa-user-margin{
+    margin-left: 0.3em;
+}
+
+.bottom-line-navbar{
+    border-top: 1px solid #000;
+    width: 50%;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: -20px;
+}
+
+@media screen and (max-width: 1500px){
+    .philosopher{
+        font-size: 25px;
+    }
+    .fa-navbar{
+        font-size: 2em;
+    }
+    .navbar-fa-div{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .philosopher{
+        font-size: 20px;
+    }
+    .fa-navbar{
+        font-size: 1.7em;
+    }
+    .navbar-fa-div{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .philosopher{
+        font-size: 15px;
+    }
+    .fa-navbar{
+        font-size: 1.3em;
+    }
+    .navbar-fa-div{
+        width: 150px;
+    }
+    .img-navbar{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .philosopher{
+        font-size: 10px;
+    }
+    .fa-navbar{
+        font-size: 1em;
+    }
+    .navbar-fa-div{
+        width: 100px;
+    }
+    .img-navbar{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .philosopher{
+        font-size: 7px;
+    }
+    .fa-navbar{
+        font-size: 0.7em;
+    }
+    .navbar-fa-div{
+        width: 70px;
+    }
+    .img-navbar{
+        width: 100px;
+        margin-left: 1em;
+    }
+    .bottom-line-navbar{
+        margin-top: -10px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .philosopher{
+        font-size: 5px;
+    }
+    .fa-navbar{
+        font-size: 0.5em;
+    }
+    .navbar-fa-div{
+        width: 50px;
+    }
+}
+
+/* .txt_menu{
     display: none;
 }
 
@@ -35,137 +177,188 @@ li{
     margin-right: 5em;
 }
 
-.navbar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 23px;
-    color: #333333;
-    margin-top: 10px;
-    margin-left: 0px;
+.navbar-icon {
+    position: absolute;
+    z-index: 1;
+    left: 5vw;
+    padding-bottom: 2vh;
 }
 
-a:hover{
-    color:#4B6F43;
-    transition:0.5s;
-    
-}
-.discovery:hover{
-    transform: scale(1.2);
+.navbar-icon span {
+    height: 5px;
+    width: 40px;
+    background-color: #BA9755;
+    display: block;
+    margin: 5px 0px 5px 0px;
+    transition: 0.7s ease-in-out;
+    transform: none;
 }
 
-.icon-bars{
+#openmenu:checked ~ .navbar-pane {
+    transform: translateX(-5vw);
+}
+
+#openmenu:checked ~ .body-text {
+    display: none;
+}
+
+#openmenu:checked ~ .navbar-icon span:nth-of-type(2) {
+    transform: translate(0%, 175%) rotate(-45deg);
+    background-color: white;
+}
+
+#openmenu:checked ~ .navbar-icon span:nth-of-type(3) {
+    transform: rotate(45deg);
+    background-color: white;
+}
+
+#openmenu:checked ~ .navbar-icon span:nth-of-type(1) {
+    opacity: 0;
+}
+
+#openmenu:checked ~ .navbar-icon span:nth-of-type(4) {
+    opacity: 0;
+}
+
+div.navbar-pane {
+    background-color: #ba9755;
+    position: absolute;
+    transform: translateX(-105vw);
+    transform-origin: (0, 0);
+    width: 35%;
+    height: 100%;
+    transition: 0.6s ease-in-out;
+}
+
+.navbar-pane p {
+    color: black;
+    font-size: 0.6em;
+}
+
+.navbar-pane nav {
+    padding: 10%;
+}
+
+.navbar-links li, a, span {
+    transition: 0.5s ease-in-out;
+}
+
+.navbar-pane ul {
+    display: inline-block;
+    font-size: 2em;
+    margin-top: 5vw;
+}
+
+ul{
+    list-style: none;
+}
+
+.navbar-pane li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    font-size: 1em;
+}
+
+
+.navbar-pane li:first-child {
+    font-size: 1.3em;
+    margin-left: -10px;
+}
+
+.navbar-container{
+    margin-top: -180px;
+}
+
+.navbar-links li a {
+    color: #faf0e6;
+    text-decoration: none;
+}
+
+.navbar-links li:first-child:hover #QC-info {
+opacity: 1;
+}
+
+.navbar-links li:first-child:hover #DC-info {
+opacity: 1;
+}
+
+#DC-info {
+    background-color: #FFAB91;
+    border: 2px solid;
+    border-color: #FFAB91;
+    display: block;
+    opacity: 0;
+}
+
+.navbar-links li:first-child a {
+    padding: 5px;
+}
+
+input.navbar-checkbox {
+    z-index: 3;
+    top: 3vh;
+    left: 5vw;
+    width: 3vw;
+    opacity: 0;
+    height: 3vh;
+    position: relative;
+}
+
+.menu-div{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #BA9755;
-    width: 80%;
-    position: relative;
-    transform: translateY(-100%);
-    transition: all 0.4s linear;
-}
-
-.heol_logo_snd_navbar{
-    height: 60px;
-    margin-left: 5px;
-}
-
-.show{
-    transform: translateY(0%);
-}
-
-.bars{
-    position: absolute;
-    top:20px;
-    right: 120px;
-    font-size: 2.5rem;
-    color: #ba9755;
-}
-
-.icon-bars a{
-    display: block;
     text-align: center;
-    font-size: 3rem;
-    padding: 1.5rem;
-    color: #FAF0E6;
 }
 
-.icon-bars a.active{
-    background-color: #cc4e18;
+.heol-logo-menu{
+    width: 90%;
 }
 
-.icon-bars a:hover{
-    background-color: #4b6f43;
+.bag-menu{
+    font-size: 5em;
+    padding-right: 100px;
 }
 
-@media screen and (max-width: 1100px){
-    .icon-bars a{
-        font-size: 2em;
+.fa-color{
+    color: #BA9755;
+}
+
+.img-menu-div{
+    width: 30%;
+}
+
+@media screen and (max-width: 1200px){
+    .navbar-pane ul{
+        font-size: 1.7em;
     }
-    .heol_logo_snd_navbar{
-        height: 50px;
-    }
-    .bars{
-        right: 100px;
+    .bag-menu{
+        font-size: 4em;
     }
 }
 
 @media screen and (max-width: 1000px){
-    .heol_logo_snd_navbar{
-        height: 40px;
-    }
-    .bars{
-        right: 90px;
-    }
-}
-
-@media screen and (max-width: 900px){
-    .bars{
-        right: 50px;
-    }
-}
-
-@media screen and (max-width: 750px){
-    .bars{
-        display: none;
-    }
-    .icon-bars{
-        width: 100%;
-        transform: translateY(0%);
-        margin-bottom: 20px;
-    }
-}
-
-@media screen and (max-width: 650px){
-    .icon-bars a{
-        font-size: 1.8em;
-    }
-    .heol_logo_snd_navbar{
-        height: 30px;
-    }
-}
-
-@media screen and (max-width: 600px){
-    .icon-bars a{
+    .navbar-pane ul{
         font-size: 1.5em;
     }
-}
-
-@media screen and (max-width: 500px){
-    .icon-bars a{
-        font-size: 1em;
-        padding: 1em;
-    }
-    .heol_logo_snd_navbar{
-        display: none;
+    .navbar-icon{
+        padding-top: 3%;
     }
 }
 
-@media screen and (max-width: 400px){
-    .icon-bars a{
-        font-size: 0.7em;
+@media screen and (max-width: 700px){
+    div.navbar-pane{
+        width: 40%;
     }
-}
+    .navbar-pane ul{
+        font-size: 1.2em;
+    }
+    .navbar-icon span{
+        height: 3px;
+        width: 28px;
+    }
+} */
 
 /* END NAVBAR */
 
@@ -2077,6 +2270,7 @@ a:hover{
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 
 .articles{
