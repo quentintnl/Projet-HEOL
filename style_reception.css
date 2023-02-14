@@ -364,14 +364,14 @@ input.navbar-checkbox {
 
 /* PRODUCT SHOW */
 
-.product_show{
+.marque-history{
     margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: space-around;
-    background: #E7D0AD;
     align-items: center;
+    background: #E7D0AD;
     width: 1300px;
 }
 
@@ -410,7 +410,6 @@ input.navbar-checkbox {
 
 .product{
     background-color:#E7D0AD;
-    position: absolute;
     width: 700px;
     height: 550px;
     left: 0px;
@@ -419,7 +418,7 @@ input.navbar-checkbox {
 }
 
 @media screen and (max-width: 1500px){
-    .product_show{
+    .marque-history{
         width: 1000px;
     }
     .product_show_img{
@@ -428,7 +427,7 @@ input.navbar-checkbox {
 }
 
 @media screen and (max-width: 1100px){
-    .product_show{
+    .marque-history{
         width: 900px;
     }
     .product_show_img{
@@ -446,7 +445,7 @@ input.navbar-checkbox {
 }
 
 @media screen and (max-width: 950px){
-    .product_show{
+    .marque-history{
         width: 700px;
     }
     .product_show_img{
@@ -464,7 +463,7 @@ input.navbar-checkbox {
 }
 
 @media screen and (max-width: 750px){
-    .product_show{
+    .marque-history{
         display: flex;
         justify-content: center;
         width: 600px;
@@ -493,10 +492,13 @@ input.navbar-checkbox {
     .discovery_class{
         text-align: center;
     }
+    .product{
+        width: 500px;
+    }
 }
 
 @media screen and (max-width: 650px){
-    .product_show{
+    .marque-history{
         width: 450px;
     }
     .name_product_show{
@@ -511,7 +513,7 @@ input.navbar-checkbox {
     .name_product_show{
         margin-top: 50px;
     }
-    .product_show{
+    .marque-history{
         width: 400px;
     }
     .name_product_show{
@@ -523,13 +525,18 @@ input.navbar-checkbox {
     .discovery{
         font-size: 25px;
     }
+    .product{
+        width: auto;
+        height: auto;
+        padding: 20px;
+    }
 }
 
 @media screen and (max-width: 450px){
     .name_product_show{
         margin-top: 50px;
     }
-    .product_show{
+    .marque-history{
         width: 300px;
     }
     .name_product_show{
