@@ -376,7 +376,7 @@ input.navbar-checkbox {
 }
 
 .product_show_img{
-    height: 400px;
+    height: 500px;
 }
 
 .name_product_show{
@@ -392,6 +392,7 @@ input.navbar-checkbox {
     font-family: 'Cormorant Garamond';
     font-style: normal;
     font-size: 24px;
+    max-width: 30em;
 }
 
 .bottom_line_product_show{
@@ -422,7 +423,7 @@ input.navbar-checkbox {
         width: 1000px;
     }
     .product_show_img{
-        height: 300px;
+        height: 400px;
     }
 }
 
@@ -449,7 +450,7 @@ input.navbar-checkbox {
         width: 700px;
     }
     .product_show_img{
-        height: 200px;
+        height: 300px;
     }
     .name_product_show{
         font-size: 30px;
@@ -2357,4 +2358,22 @@ input.navbar-checkbox {
     .articles_txt{
         font-size: 15px;
     }
+}
+
+/* DISCOVER HEOL */
+
+.txt-discover-heol{
+    font-family: 'Cormorant Garamond';
+    text-align: center;
+    font-size: 2em;
+    max-width: 40em;
+}
+
+.div-discover-heol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
 }
