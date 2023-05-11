@@ -419,3 +419,7 @@ a:hover{
         font-size: 12px;
     }
 }
+
+select.philosopher option:hover {
+    background-color: #4B6F43;
+}

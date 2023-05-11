@@ -14,7 +14,7 @@ function remove() {
     
   }
   document.getElementById("delete_one").addEventListener("click", remove);
- 
+
 
 
 <div class="product_number">
